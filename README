@@ -1,5 +1,5 @@
-TO COMPILE
-swig -php hello.c
+# TO COMPILE
+swig -php hello.i
 phpize && ./configure
-make && make install
+make && sudo make install
 
